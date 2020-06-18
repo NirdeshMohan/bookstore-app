@@ -6,6 +6,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import com.ishnit.bookstoreapp.entity.Category;
 
 @RepositoryRestResource(collectionResourceRel = "book", path="book-category")
-public interface BookCategoryRepository extends JpaRepository<Category, Long> {
+public interface BookCategoryRepository extends JpaRepository<Category, Long> {}
 
-}

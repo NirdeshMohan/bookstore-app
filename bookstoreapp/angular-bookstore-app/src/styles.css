@@ -1,0 +1,8 @@
+@font-face{
+    font-family:"Metal Mania";
+    src:url(/asset/fonts/Metal_Mania/MetalMania-Regular.ttf) format("truetype")
+}
+
+h1{
+    font-family:"Metal Mania";
+}
