@@ -1,3 +1,6 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 @font-face{
     font-family:"Metal Mania";
     src:url(/asset/fonts/Metal_Mania/MetalMania-Regular.ttf) format("truetype")
@@ -6,3 +9,7 @@
 h1{
     font-family:"Metal Mania";
 }
+
+body {
+    padding-top:56px;
+  }
